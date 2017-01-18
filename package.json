@@ -12,8 +12,9 @@
 		"url": "https://github.com/boykovdmitriy/angular2Leaflet/issues"
 	},
 	"homepage"    : "https://github.com/boykovdmitriy/angular2Leaflet#readme",
-	"scripts": {
-		"start-web-server": "webpack-dev-server"
+	"scripts"     : {
+		"build"      : "webpack",
+		"webpack-dev": "webpack-dev-server"
 	},
 	"dependencies": {
 		"@angular/common"                  : "2.4.1",
@@ -21,17 +22,14 @@
 		"@angular/core"                    : "2.4.1",
 		"@angular/platform-browser"        : "2.4.1",
 		"@angular/platform-browser-dynamic": "2.4.1",
-		"@types/leaflet"                   : "1.0.45",
+		"@angular/router"                  : "3.4.1",
 		"@types/node"                      : "6.0.53",
 		"core-js"                          : "2.4.1",
 		"css-loader"                       : "0.26.1",
-		"extract-text-webpack-plugin"      : "1.0.1",
+		"exports-loader"                   : "0.6.3",
 		"file-loader"                      : "0.9.0",
-		"font-awesome"                     : "4.7.0",
-		"leaflet"                          : "1.0.2",
+		"imports-loader"                   : "0.7.0",
 		"path"                             : "0.12.7",
-		"postcss-loader"                   : "1.2.1",
-		"raw-loader"                       : "0.5.1",
 		"rxjs"                             : "5.0.2",
 		"style-loader"                     : "0.13.1",
 		"ts-loader"                        : "1.3.3",
